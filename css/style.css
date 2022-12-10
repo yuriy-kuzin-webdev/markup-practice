@@ -4,6 +4,13 @@ body {
     color: #616161;
 }
 
+/*  */
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 /* Any tag containing __container in class attribute */
 [class*="__container"] {
     max-width: 1057px;
