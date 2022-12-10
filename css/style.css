@@ -3,3 +3,9 @@ body {
     font-family: Rubik;
     color: #616161;
 }
+
+/* Any tag containing __container in class attribute */
+[class*="__container"] {
+    max-width: 1057px;
+    margin: 0px auto;
+}
