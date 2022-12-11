@@ -94,6 +94,9 @@ body {
   letter-spacing: 0.14em;
   color: #000;
 }
+.menu__link:hover {
+    text-decoration: underline;
+}
 @media (max-width: 991.98px) {
   .header__container {
     min-height: 80px;
@@ -139,11 +142,14 @@ body {
   .menu__body {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 100%;
     height: 100%;
     background-color: #fff;
     padding: 90px 15px 30px 15px;
+  }
+  .menu__body:target {
+    left: 0;
   }
   .menu__link {
     color: #000;
