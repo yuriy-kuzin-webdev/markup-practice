@@ -51,7 +51,26 @@ body {
 .menu__link {
 }
 .button {
+    display: inline-block;
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.14em;
+    color: #FCFDFE;
+    padding: 14px 30px;
+    border-radius: 5px;
+    background: #EC5863;
+    transition: background-color 0.3s ease 0s;
+}
+.button:hover {
+    background: #eb747c;
 }
 .button_blue {
+    background-color: #4285F4;
+}
+.button_blue:hover {
+    background-color: #7baaf7;
 }
 /* HEADER END */
